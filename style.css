@@ -85,7 +85,7 @@ h2, h3 {
   cursor: pointer;
   border-radius: 8px 8px 0 0;
   margin-right: 5px;
-  transition: background 0.3s;
+  /*transition: background 0.3s;*/
 }
 
 .tabs label:hover {
