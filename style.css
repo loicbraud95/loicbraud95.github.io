@@ -66,6 +66,52 @@ h2, h3 {
   box-shadow: 0 0 15px rgba(255,255,255,0.2);
 }
 
+.tabs{
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tabs input[type="radio"]{
+  display: none;
+}
+
+.tabs label{
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  margin-right: 5px;
+  transition: background 0.3s;
+}
+
+.tabs label:hover {
+  background: #444;
+}
+
+.tab-content {
+  display: none;
+  padding: 2rem;
+  background: #1e1e22;
+  border-radius: 0 8px 8px 8px;
+  color: #eee;
+}
+
+/* Affiche le bon contenu quand l’onglet est coché */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2{
+  display: block;
+}
+
+/* Onglet actif */
+#tab1:checked + label,
+#tab2:checked + label {
+  background: #3a1c71;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
