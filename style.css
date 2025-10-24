@@ -67,9 +67,7 @@ h2, h3 {
 }
 
 .tabs{
-  width: 90%;
-  max-width: 800px;
-  margin: 2rem;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -85,7 +83,7 @@ h2, h3 {
   cursor: pointer;
   border-radius: 8px 8px 0 0;
   margin-right: 5px;
-  /*transition: background 0.3s;*/
+  transition: background 0.3s;
 }
 
 .tabs label:hover {
@@ -94,8 +92,7 @@ h2, h3 {
 
 .tab-content {
   display: none;
-  padding: 2rem;
-  background: #1e1e22;
+  background: #0e0e10;
   border-radius: 0 8px 8px 8px;
   color: #eee;
 }
