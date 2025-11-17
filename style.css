@@ -35,9 +35,10 @@ h2, h3 {
 
 .project-list{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  grid-template-columns: repeat(auto-fit, 25%);
   gap: 1.5rem;
   margin-top: 1.5rem;
+  justify-content: center;
 }
 
 .project {
