@@ -28,6 +28,26 @@ header h1 {
   opacity: 0.8;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.15);
+}
+
+
 main {
   width: 100%;
   margin: 3rem auto;
